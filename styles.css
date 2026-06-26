@@ -3,7 +3,7 @@
 }
 /* yay *\
 
-#sidebar {
+.sidebar {
     width: 210px;
     height: 100%;
     padding: 5px;
@@ -23,7 +23,7 @@
 
 }
 
-#main {
+.main {
     width: 710px;
     height: 900px;
     color: #f4f4f4;
@@ -39,7 +39,7 @@
     padding: 10px;
 }
 
-#what {
+.what {
     width: 525px;
     height: 30px;
     background-color: #0B0B0C;
@@ -52,7 +52,7 @@
     box-shadow: 6px 6px 7px #0f0f0f;
     margin-bottom: 10px;
 }
-#now {
+.now {
     width: 690px;
     height: 30px;
     background-color: #0B0B0C;
@@ -64,7 +64,7 @@
     box-shadow: 6px 6px 7px #0f0f0f;
     margin-bottom: 10px;
 }
-#me {
+.me {
     width: 150px;
     height: 300px;
     float: left;
@@ -92,7 +92,7 @@ a:hover {
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-#finfo {
+.finfo {
     margin: 40px;
     border-radius: 0.9px;
     box-shadow: 0px 0px 6px 6px #0d0d0d;
@@ -102,7 +102,7 @@ a:hover {
     background-image: linear-gradient(#121212, #1c1e20);
     height: 210px;
 }
-#fother {
+.fother {
     margin: 40px;
     border-radius: 0.9px;
     box-shadow: 0px 0px 6px 6px #0d0d0d;
@@ -145,7 +145,7 @@ a:visited {
     background-color: grey;
     color: #38ffb5;
 }
-#sort {
+.sort {
     display: flex;
     flex-direction: row;
 }
@@ -165,7 +165,7 @@ b {
     font-style: oblique;
 }
 
-#topdiv {
+.topdiv {
     margin-left: 10px;
     width: 690px;
     height: 70px;
@@ -175,7 +175,7 @@ b {
     background-size: 300px;
 }
 
-#stats {
+.stats {
     margin: 40px;
     border-radius: 0.9px;
     box-shadow: 0px 0px 6px 6px #0d0d0d;
@@ -187,7 +187,7 @@ b {
     padding: 30px;
 }
 
-#extrainfo {
+.extrainfo {
     margin: 35px;
     border-radius: 0.9px;
     box-shadow: 0px 0px 6px 6px #0d0d0d;
@@ -198,13 +198,13 @@ b {
     height: 210px;
     padding: 30px;
 }
-#proj:hover {
+.proj:hover {
     transform: scale(1.1);
     transition: 1s cubic-bezier(0, 1, 0.2, 1);
     background-image: linear-gradient(#121212, #323549);
     cursor: crosshair;
 }
-#proj {
+.proj {
     float: left;
     border-radius: 4px;
     box-shadow: 0px 0px 6px 6px #0d0d0d;
@@ -218,18 +218,18 @@ b {
     width: 755px;
 }
 
-#projsort {
+.projsort {
     display: flex;
     flex-direction: column;
 }
 
-#sbsmall {
+.sbsmall {
     font-size: 10px;
     color: #d1d1d1;
     line-height: 0.9;
 }
 
-#extrasb {
+.extrasb {
     margin: 10px;
 }
 
@@ -244,7 +244,7 @@ hr {
     margin: 8px 0 8px 0;
 }
 
-body {
+html {
     font-family: hack, monospace, sans-serif;
     margin: 5px;
     background-image: url('https://file.garden/Z7KfTa3R7Hv1UTMV/Graph/pw_maze_black.png')
