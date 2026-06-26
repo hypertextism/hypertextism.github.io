@@ -1,7 +1,6 @@
 .hyper {
     width: 400px;
 }
-/* Either you are purposely trying to fuck me in the ass or this is just taking a while to work I swear to god JUST WROK AND WHY IS TO TURNNING ORANGE /*
 
 .sidebar {
     width: 210px;
@@ -244,7 +243,7 @@ hr {
     margin: 8px 0 8px 0;
 }
 
-html {
+body {
     font-family: hack, monospace, sans-serif;
     margin: 5px;
     background-image: url('https://file.garden/Z7KfTa3R7Hv1UTMV/Graph/pw_maze_black.png')
