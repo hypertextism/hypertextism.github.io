@@ -75,7 +75,7 @@ a:hover {
     animation-iteration-count: infinite;
    animation-timing-function: ease-in-out;
     animation-duration: 15s;
-    background-image: url('/WahPlusFBSketch.png');
+    background-image: url('WahPlusFBSketch.png');
     width: 455px; 
     height: 600px;
       
